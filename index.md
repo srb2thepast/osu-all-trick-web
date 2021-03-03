@@ -1,3 +1,5 @@
 ## Welcome to osu!all-trick!
 
-![Introduction](https://assets.ppy.sh/media/landing.mp4)
+![Introduction](https://i.imgur.com/uu6HNzA.gif)
+
+^ Testing, original by peppy
