@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## osu!all-trick
 
 You can use the [editor on GitHub](https://github.com/srb2thepast/osu-all-trick/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
