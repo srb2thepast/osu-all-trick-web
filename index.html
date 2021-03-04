@@ -7,11 +7,13 @@
   <div id="tab1-2" data-tab-content="1" class="tab-content">
   </div>
   <div id="tab2" data-tab-content="1" class="tab-content">
+    <div id="iy255">search WIP
+    </div>
   </div>
   <div id="tab3" data-tab-content="1" class="tab-content">
     <div id="il5cng" class="row">
       <div id="irmzjm" class="cell">
-        <img alt="8257444.png" src="https://raw.githubusercontent.com/srb2thepast/osu-all-trick/gh-pages/imgs/pfps/8257444.png"/>
+        <img alt="8257444.png" src="https://raw.githubusercontent.com/srb2thepast/osu-all-trick/gh-pages/imgs/pfps/8257444.png" id="ii1i6"/>
         <div id="ios65g">
           <span id="ibnw3o">srb2thepast</span>
         </div>
@@ -37,7 +39,7 @@
     </div>
     <div id="ibp0t1">Recent Plays
     </div>
-    <div class="row" id="itvez">
+    <div id="itvez" class="row">
       <div id="i0917i" class="cell">
       </div>
       <div id="iugfk1" class="cell">
@@ -48,7 +50,7 @@
     </div>
   </div>
   <div data-tab-content="1" id="ilamyl" class="tab-content">
-    <img alt="Untitled (1).png" src="https://raw.githubusercontent.com/srb2thepast/osu-all-trick/gh-pages/imgs/logo.png"/>
+    <img alt="Untitled (1).png" src="https://raw.githubusercontent.com/srb2thepast/osu-all-trick/gh-pages/imgs/logo.png" id="i8iwi"/>
     <div id="i2n99j">Update log:
       <div draggable="true">- 727
       </div>
@@ -61,55 +63,11 @@
       </div>
     </div>
     <div id="i5f4r">- created by srb2thepast (https://osu.ppy.sh/users/8257444)
-      <br/>- thanks to abraker for helping me understand how osu!skills calcs work (https://osu.ppy.sh/users/4635891)
+      <br draggable="true" data-highlightable="1" id="i9qrf"/>- thanks to abraker for helping me understand how osu!skills calcs work (https://osu.ppy.sh/users/4635891)
     </div>
   </div>
 </div>
 <script>var items = document.querySelectorAll('#ifjxj');
-  for (var i = 0, len = items.length; i < len; i++) {
-    (function(){
-      var t,e=this,a="[data-tab]",n=document.body,r=n.matchesSelector||n.webkitMatchesSelector||n.mozMatchesSelector||n.msMatchesSelector,o=function(){
-        var a=e.querySelectorAll("[data-tab-content]")||[];
-        for(t=0;t<a.length;t++)a[t].style.display="none"}
-      ,i=function(n){
-        var r=e.querySelectorAll(a)||[];
-        for(t=0;t<r.length;t++){
-          var i=r[t],s=i.className.replace("tab-active","").trim();
-          i.className=s}
-        o(),n.className+=" tab-active";
-        var l=n.getAttribute("href"),c=e.querySelector(l);
-        c&&(c.style.display="")}
-      ,s=e.querySelector(".tab-active"+a);
-      s=s||e.querySelector(a),s&&i(s),e.addEventListener("click",function(t){
-        var e=t.target;
-        r.call(e,a)&&i(e)}
-                                                        )
-    }
-     .bind(items[i]))();
-  }
-  var items = document.querySelectorAll('#ivikn');
-  for (var i = 0, len = items.length; i < len; i++) {
-    (function(){
-      var t,e=this,a="[data-tab]",n=document.body,r=n.matchesSelector||n.webkitMatchesSelector||n.mozMatchesSelector||n.msMatchesSelector,o=function(){
-        var a=e.querySelectorAll("[data-tab-content]")||[];
-        for(t=0;t<a.length;t++)a[t].style.display="none"}
-      ,i=function(n){
-        var r=e.querySelectorAll(a)||[];
-        for(t=0;t<r.length;t++){
-          var i=r[t],s=i.className.replace("tab-active","").trim();
-          i.className=s}
-        o(),n.className+=" tab-active";
-        var l=n.getAttribute("href"),c=e.querySelector(l);
-        c&&(c.style.display="")}
-      ,s=e.querySelector(".tab-active"+a);
-      s=s||e.querySelector(a),s&&i(s),e.addEventListener("click",function(t){
-        var e=t.target;
-        r.call(e,a)&&i(e)}
-                                                        )
-    }
-     .bind(items[i]))();
-  }
-  var items = document.querySelectorAll('#iama5');
   for (var i = 0, len = items.length; i < len; i++) {
     (function(){
       var t,e=this,a="[data-tab]",n=document.body,r=n.matchesSelector||n.webkitMatchesSelector||n.mozMatchesSelector||n.msMatchesSelector,o=function(){
@@ -167,6 +125,18 @@
     min-height:100px;
     animation:fadeEffect 1s;
   }
+  .row{
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding:10px;
+  }
+  .cell{
+    min-height:75px;
+    flex-grow:1;
+    flex-basis:100%;
+  }
   #i2n99j{
     padding:10px 10px 10px 50px;
     text-align:left;
@@ -175,45 +145,6 @@
     border:0 #000000 black;
     color:#ff007c;
     width:500px;
-  }
-  #i5pym{
-    padding:0 0 0 425px;
-    height:486px;
-  }
-  #ivikn{
-    background-image:-webkit-linear-gradient(90deg, rgb(217, 131, 166) 0%, rgb(113, 56, 115) 100%);
-    opacity:1;
-  }
-  #inym8{
-    background-image:-webkit-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 156, 237) 23.1293%, rgb(255, 89, 225) 100%);
-    background-repeat:repeat;
-    background-position:left top;
-    background-attachment:scroll;
-    background-size:auto;
-  }
-  #i7wsl{
-    color:#ffe6fc;
-  }
-  #tab1{
-    background-image:-webkit-linear-gradient(right, rgb(163, 56, 166) 0%, rgb(255, 128, 243) 99.3197%);
-    background-repeat:repeat;
-    background-position:left top;
-    background-attachment:scroll;
-    background-size:auto;
-    min-height:100px;
-    width:auto;
-  }
-  #iw86i{
-    color:#ffe6fc;
-  }
-  #irnaz{
-    color:#ffe6fc;
-  }
-  #iwvgg{
-    border-radius:77px 77px 77px 77px;
-    border:10px outset #b879ff;
-    align-self:auto;
-    margin:0 0 0 15%;
   }
   #ilamyl{
     background-image:linear-gradient(to right, rgb(217, 131, 166) 0%, rgb(113, 56, 115) 100%);
@@ -237,18 +168,6 @@
     background-position:left top;
     background-attachment:scroll;
     background-size:auto;
-  }
-  .row{
-    display:flex;
-    justify-content:flex-start;
-    align-items:stretch;
-    flex-wrap:nowrap;
-    padding:10px;
-  }
-  .cell{
-    min-height:75px;
-    flex-grow:1;
-    flex-basis:100%;
   }
   #il1fhl{
     flex-basis:108.99%;
@@ -340,6 +259,17 @@
     border:#000000 #000000;
     color:#ff6969;
     font-family:Tahoma, Geneva, sans-serif;
+  }
+  #ii1i6{
+    border-radius:60px 60px 60px 60px;
+  }
+  #i8iwi{
+    margin:0 0 0 20%;
+    width:800px;
+    height:800px;
+  }
+  #iy255{
+    padding:10px;
   }
   @keyframes fadeEffect{
     from{
